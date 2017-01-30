@@ -1,4 +1,4 @@
-# webpack-env-loader
+# webpack-environment-loader
 --------------------
 
 Load app settings in JSON format depending on running environment. You can set multiple apps with their own environments settings.
@@ -7,7 +7,7 @@ Load app settings in JSON format depending on running environment. You can set m
 # Add it to your project
 ------------------------
 
-    npm install webpack-env-loader --save-dev
+    npm install webpack-environment-loader --save-dev
 
 # How to use it ?
 -----------------
@@ -27,7 +27,7 @@ Load app settings in JSON format depending on running environment. You can set m
 
 2. in your file
 
-        var settings = require('webpack-env-loader!./path/to/settings')
+        var settings = require('webpack-environment-loader!./path/to/settings')
 
 
 # Settings examples
