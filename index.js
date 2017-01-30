@@ -10,6 +10,8 @@ module.exports = function (content) {
   var md;
   var sandbox = { module: {} };
   var settings;
+  
+  this.cacheable();
 
   vm.runInNewContext(content, sandbox, this.resourcePath);
   md = sandbox.module.exports;
